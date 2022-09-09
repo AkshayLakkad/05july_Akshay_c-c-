@@ -4,7 +4,7 @@ int main()
 {
 	char str1[]="Welcome";
 	char str2[]="To The Havven";
-	strcpy(str2,str1);
+	strcpy(str1,str2);
 	puts(str1);
 	return 0;
 }
